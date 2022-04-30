@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ex0406</string>
+
+    <!-- activity_main.xml -->
+    <string name="tvMsg_text">오늘은 날씨가 차아아아암 좋네요~</string>
+    <string name="edt_hint">입력해주세요</string>
+    <string name="btnChange_text">텍스트 변경👌</string>
+    <string name="btnBgChange_text">배경색 변경👏</string>
+
+    <!-- activity_main2.xml -->
+    <string name="btn1_text">빨강</string>
+    <string name="btn2_text">초록</string>
+    <string name="btn3_text">파랑</string>
+
+</resources>

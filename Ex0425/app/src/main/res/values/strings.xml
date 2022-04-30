@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ex0425</string>
+
+    <!-- activity login -->
+    <string name="edtUserId_hint">아이디</string>
+    <string name="edtUserPw_hint">비밀번호</string>
+    <string name="tvName_text">MOKOKO Talk App</string>
+    <string name="bntLogin_text">로그인</string>
+
+    <!-- activity chat -->
+    <string name="btnMsgSend_text">전송</string>
+
+    <!-- activity umb_login.xml -->
+    <string name = "tvTitle_text">UmCycle Rental System</string>
+    <string name = "edtUmId_hint">아이디</string>
+    <string name = "edtUmPw_hint">페스워드</string>
+    <string name = "btnUmJoin_text">회원가입</string>
+    <string name = "btnUmLogin_text">로그인</string>
+</resources>

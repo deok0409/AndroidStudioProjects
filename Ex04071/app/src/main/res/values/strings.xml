@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ex0407(1)</string>
+
+    <!-- Activity main -->
+    <string name="tv1_text">0</string>
+    <string name="btn1_text">+</string>
+    <string name="btn2_text">-</string>
+
+    <!-- Activity main2 -->
+    <string name="fristNum_hint">첫번째 숫자 입력</string>
+    <string name="secondNum_hint">두번째 숫자 입력</string>
+    <string name="but1_text">더하기</string>
+    <string name="but2_text">빼기</string>
+    <string name="but3_text">곱하기</string>
+    <string name="but4_text">나누기</string>
+    <string name="tv2_text">연산결과 : 0</string>
+
+    <!-- Activity main3 -->
+    <string name="bthChange_text">감추기</string>
+    <string name="btnChange2_text">되돌리기</string>
+
+    <!-- activity main4 -->
+    <string name="btnigChange1_text">pre</string>
+    <string name="btnigChange2_text">next</string>
+
+    <!-- activity main5 -->
+    <string name="tvMs1_text">DICE</string>
+    <string name="tvMs2_text">0 : 0</string>
+    <string name="button1_text">SHAKE</string>
+</resources>

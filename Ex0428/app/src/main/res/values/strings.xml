@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ex0428</string>
+
+    <!-- activity_main.xml -->
+    <string name="btnStart_text">시작</string>
+
+    <!-- activity_more.xml -->
+    <string name = "tvGame_text">👎두더지잡기</string>
+    <string name = "tvTime_text">남은시간</string>
+    <string name = "tvCatch_text">잡은개수</string>
+    <string name = "tvTime2_text">30</string>
+    <string name = "tvCatch2_text">0</string>
+</resources>

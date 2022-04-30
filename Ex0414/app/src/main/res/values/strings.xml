@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ex0414</string>
+
+    <!-- activity_main.xml -->
+    <string name="edtFt_hint">과일명을 입력하시오</string>
+    <string name="btnFt_text">등록</string>
+
+    <!-- product_item.xml -->
+    <string name = "btnSv_text">상품보기</string>
+
+    <!-- product_item -->
+    <string name = "pro_name_text1">텀블러</string>
+    <string name = "pro_name_text2">슬리퍼</string>
+    <string name = "pro_name_text3">케이스</string>
+    <string name = "pro_name_text4">인형</string>
+    <string name = "pro_name_text5">피규어</string>
+    <string name = "pro_name_text6">안마봉</string>
+    <string name = "pro_name_text7">마우스패드</string>
+    <string name = "pro_name_text8">노트</string>
+    <string name = "pro_name_text9">필통</string>
+    <string name = "pro_name_text10">노트북파우치</string>
+    <string name = "pro_name_text11">티셔츠</string>
+
+</resources>

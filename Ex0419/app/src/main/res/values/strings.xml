@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ex0419</string>
+
+    <!-- activity_main -->
+    <string name="btnMove_text">이동</string>
+
+    <!-- activity_login -->
+    <string name="tvLogin_text">Login</string>
+    <string name="edtId_hint">ID입력</string>
+    <string name="edtPw_hint">PW입력</string>
+    <string name="btnLogin_text">로그인</string>
+    <string name="btnJoin_text">회원가입</string>
+
+    <!-- activity_join -->
+    <string name = "edtJoinId_hint">가입할 ID입력</string>
+    <string name = "edtNick_hint">가입할 NickName</string>
+    <string name = "edtJoinPw_hint">PW입력</string>
+    <string name = "btnSuccess_text">가입하기</string>
+</resources>
