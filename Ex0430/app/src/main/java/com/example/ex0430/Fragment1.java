@@ -1,5 +1,6 @@
 package com.example.ex0430;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -56,6 +57,9 @@ public class Fragment1 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_1, container, false);
 
         webView = view.findViewById(R.id.webView);
+        //getSharedPreferences에 저장된 데이터 접근
+        String url = getActivity().getSharedPreferences("mySPF", Context.MODE_PRIVATE)
+                .getString("url", "https://www.smhrd.or.kr");
 
         //안드로이드에 설치되어 있는 기본 브라우저를 실행  -->
         //WebSettings 객체를 이용해서 WebView에 바로 띄워지도록 설정
@@ -63,7 +67,7 @@ public class Fragment1 extends Fragment {
         settings.setJavaScriptEnabled(true); //자바스크립트 사용허용
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.smhrd.or.kr");
+        webView.loadUrl(url);
 
         return view;
     }
