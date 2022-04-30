@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Ex0407</string>
-
-    <!-- activity main -->
-    <string name = "tv_text">0</string>
-    <string name = "btn1_text">+</string>
-    <string name = "btn2_text">-</string>
-</resources>
