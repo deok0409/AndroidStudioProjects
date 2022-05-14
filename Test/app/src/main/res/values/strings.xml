@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="btnFirst_text">첫 번째 버튼</string>
+    <string name="btnSecond_text">두 번째 버튼</string>
+    <string name="btnThrid_text">세 번째 버튼</string>
+</resources>

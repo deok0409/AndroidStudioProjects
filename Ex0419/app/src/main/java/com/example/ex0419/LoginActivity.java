@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int method = Request.Method.POST;
-                String server_url = "http://192.168.88.1:8081/android/Login";
+                String server_url = "http://220.80.203.18:8081/myapp/Login";
 
                 request = new StringRequest(
                         method,
@@ -63,32 +63,46 @@ public class LoginActivity extends AppCompatActivity {
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {
-                                Toast.makeText(LoginActivity.this,
-                                        "Login Success"+" "+response,
-                                        Toast.LENGTH_SHORT).show();
-                            }
+
+
+
+
+                                        Intent intent2 = new Intent(LoginActivity.this, UmMainActivity.class);
+
+                                        intent2.putExtra("response", response);
+
+                                        startActivity(intent2);
+
+                                        finish();
+
+                                    }
+
+
+
+
+
                         },
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
                                 Toast.makeText(LoginActivity.this,
-                                        "Login Fail"+error.toString(),
+                                        "Login Fail" + error.toString(),
                                         Toast.LENGTH_SHORT).show();
                             }
                         }
-                ){
+                ) {
                     @Nullable
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
 
                         Map<String, String> param = new HashMap<>();
-                        param.put("id", edtId.getText().toString());
-                        param.put("pw", edtPw.getText().toString());
+
+                        param.put("user_id", edtId.getText().toString());
+                        param.put("user_pw", edtPw.getText().toString());
 
                         return param;
                     }
                 };
-
                 queue.add(request);
             }
         });

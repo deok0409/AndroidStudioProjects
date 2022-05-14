@@ -74,7 +74,7 @@ public class Fragment3 extends Fragment {
 
                 //사용자가 Url 값을 입력하면 저장
                 String url = edtUrl.getText().toString();
-                //url 값을 mySPF.xml 파일에 url 값을 저장ㅗㅗ
+                //url 값을 mySPF.xml 파일에 url 값을 저장
                 editor.putString("url", url);
                 editor.commit();
                 //getActivity() --> MainActivity

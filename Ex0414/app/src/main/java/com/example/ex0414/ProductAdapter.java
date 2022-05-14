@@ -44,13 +44,11 @@ public class ProductAdapter extends BaseAdapter {
 
         ProViewHolder holder = null;
 
-        if(view == null) {
+        if (view == null) {
             view = inflater.inflate(layout, viewGroup, false);
             holder = new ProViewHolder(view);
             view.setTag(holder);
-        }
-
-        else {
+        } else {
             holder = (ProViewHolder) view.getTag();
         }
 
@@ -80,9 +78,8 @@ public class ProductAdapter extends BaseAdapter {
                                 dialogInterface.dismiss();
                             }
                         });
+                return view;
             }
 
-
-        return view;
+        }
     }
-}

@@ -12,8 +12,17 @@
     <string name="btnJoin_text">회원가입</string>
 
     <!-- activity_join -->
-    <string name = "edtJoinId_hint">가입할 ID입력</string>
-    <string name = "edtNick_hint">가입할 NickName</string>
-    <string name = "edtJoinPw_hint">PW입력</string>
-    <string name = "btnSuccess_text">가입하기</string>
+    <string name="edtJoinId_hint">가입할 ID입력</string>
+    <string name="edtNick_hint">가입할 NickName</string>
+    <string name="edtJoinPw_hint">PW입력</string>
+    <string name="edtEmail_hint">이메일을 입력하세요</string>
+    <string name="edtPhone_hint">핸드폰 번호를 입력하시오</string>
+    <string name="edtAddr_hint">주소를 입력하시오</string>
+    <string name="btnSuccess_text">가입하기</string>
+
+    <!-- UmMainActivity_main.xml -->
+    <string name="tv2_text">님</string>
+    <string name="tvData_text">포인트 :</string>
+    <string name="btnMypage_text">마이페이지</string>
+    <string name = "btnLogout_text">로그아웃</string>
 </resources>

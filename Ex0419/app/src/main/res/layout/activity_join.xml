@@ -7,53 +7,88 @@
     tools:context=".JoinActivity">
 
     <EditText
-        android:id="@+id/edtNick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/edtNick_hint"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416" />
-
-    <EditText
         android:id="@+id/edtJoinId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="@string/edtJoinId_hint"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/edtNick"
-        app:layout_constraintEnd_toEndOf="@+id/edtNick"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edtNick" />
+        app:layout_constraintBottom_toTopOf="@+id/edtJoinPw"
+        app:layout_constraintEnd_toEndOf="@+id/edtJoinPw"
+        app:layout_constraintStart_toStartOf="@+id/edtJoinPw" />
 
     <EditText
-        android:id="@+id/edtJoinPw"
+        android:id="@+id/edtNick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="@string/edtJoinPw_hint"
+        android:hint="@string/edtNick_hint"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/edtNick"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edtNick"
-        app:layout_constraintTop_toBottomOf="@+id/edtNick" />
+        app:layout_constraintEnd_toEndOf="@+id/edtJoinPw"
+        app:layout_constraintStart_toStartOf="@+id/edtJoinPw"
+        app:layout_constraintTop_toBottomOf="@+id/edtJoinPw" />
 
     <Button
         android:id="@+id/btnSuccess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:text="@string/btnSuccess_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtJoinPw" />
+        app:layout_constraintTop_toBottomOf="@+id/edtAddr" />
+
+    <EditText
+        android:id="@+id/edtJoinPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtJoinPw_hint"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/edtEmail_hint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/edtNick"
+        app:layout_constraintStart_toStartOf="@+id/edtNick"
+        app:layout_constraintTop_toBottomOf="@+id/edtNick" />
+
+    <EditText
+        android:id="@+id/edtAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/edtAddr_hint"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="@+id/edtPhone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edtPhone"
+        app:layout_constraintTop_toBottomOf="@+id/edtPhone" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/edtPhone_hint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmail"
+        app:layout_constraintStart_toStartOf="@+id/edtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

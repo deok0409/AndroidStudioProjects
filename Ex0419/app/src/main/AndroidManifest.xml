@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Ex0419"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".MypageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UmMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".JoinActivity"
             android:exported="false" />
         <activity
